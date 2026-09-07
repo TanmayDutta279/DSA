@@ -1,1 +1,1 @@
-<h2>sign-of-the-product-of-an-array Notes</h2><hr>[ Time taken: 1hr 22m 49s ]
+<h2>sign-of-the-product-of-an-array Notes</h2><hr>[ Time taken: 1hr 23m 28s ]
