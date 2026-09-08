@@ -10,7 +10,6 @@ public:
         return sum;
     }
     int smallestIndex(vector<int>& nums) {
-        int mini = INT_MAX;
         for(int i = 0;i<nums.size();i++){
             if(digitsum(nums[i])==i){
                 return i;
