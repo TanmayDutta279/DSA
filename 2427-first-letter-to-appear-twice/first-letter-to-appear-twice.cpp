@@ -3,15 +3,10 @@ public:
     char repeatedCharacter(string s) {
         unordered_set<char> st;
         for(int i = 0;i<s.size();i++){
-            if(st.empty()){
-                st.insert(s[i]);
-            }
-            else if(st.find(s[i])!=st.end()){
+            if(st.find(s[i])!=st.end()){
                 return s[i];
             }
-            else{
-                st.insert(s[i]);
-            }
+            st.insert(s[i]);
         }
         return s[0];
     }
